@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialogText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your water consumption was very high today; here are some ways you can reduce it and save water &amp; money: 1. Upgrade Appliances: Invest in water-efficient models.
+2. Shorter Showers: Encourage quick showers to cut water consumption.
+3. Graywater for Plants: Reuse water for outdoor irrigation.
+4. Optimize Dishwashing: Run the dishwasher only with full loads." />
+
+    <Button
+        android:id="@+id/dialogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+</LinearLayout>

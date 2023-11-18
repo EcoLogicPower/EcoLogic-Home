@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">EcoLogic Home</string>
+
+    <string-array name="persoane">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+    </string-array>
+    <string-array name="casa">
+        <item>4-5</item>
+        <item>6-7</item>
+        <item>8-9</item>
+        <item>10-11</item>
+        <item>12-13</item>
+
+    </string-array>
+
+    <string-array name="masina">
+        <item>Gas</item>
+        <item>Diesel</item>
+        <item>Electric</item>
+        <item>Hybrid</item>
+        <item>I don\'t drive a car</item>
+
+    </string-array>
+    <string-array name="caldura">
+        <item>Boiler</item>
+        <item>Electric heating system</item>
+
+    </string-array>
+
+</resources>

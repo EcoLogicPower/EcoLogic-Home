@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialogText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your electricity consumption was very high today; here are some ways you can reduce it and save energy and money:
+
+1. Upgrade Appliances: Choose energy-efficient models.
+2. Turn Off Lights: Develop the habit of switching off lights and electronics.
+3. Unplug Chargers: Disconnect chargers and unused devices to prevent standby energy usage.
+4. Set Thermostat Wisely: Adjust to an energy-efficient temperature." />
+
+    <Button
+        android:id="@+id/dialogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+</LinearLayout>

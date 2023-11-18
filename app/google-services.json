@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "636605810543",
+    "project_id": "ecologic-b0662",
+    "storage_bucket": "ecologic-b0662.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636605810543:android:6ca3e6dd4c3722dc08ca9a",
+        "android_client_info": {
+          "package_name": "com.example.doamneajuta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3fkancv0dBZt8_YVlBhdv-d7ukd9R2UY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

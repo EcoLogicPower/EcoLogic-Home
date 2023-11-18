@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frunz"
+    tools:context=".DataLog">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/border1"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Questions"
+            android:textAlignment="center"
+            android:textColor="@color/light_green"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. How much water did you consume today? Write your answer in liters!"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border2">
+            <EditText
+                android:id="@+id/raspuns1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:textColor="@color/black"
+                android:textSize="15dp"></EditText>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. How many km did you drive with your car today? If you don't have a car, write 0."
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border2">
+            <EditText
+                android:id="@+id/raspuns2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:textColor="@color/black"
+                android:textSize="20dp"></EditText>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. For how many hours did you use the A.C today?"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border2">
+            <EditText
+                android:id="@+id/raspuns3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:textColor="@color/black"
+                android:textSize="20dp"></EditText>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. For how many hours did you use the washing machine today?"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border2">
+            <EditText
+                android:id="@+id/raspuns4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:textColor="@color/black"
+                android:textSize="20dp"></EditText>
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. For how many hours did you use the TV today?"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border2">
+            <EditText
+                android:id="@+id/raspuns5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:textColor="@color/black"
+                android:textSize="20dp"></EditText>
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. For how many hours did you leave the electric heaters on today?"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border2">
+            <EditText
+                android:id="@+id/raspuns6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:textColor="@color/black"
+                android:textSize="20dp"></EditText>
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. For how many hours did you use the lightbulbs in your house today? Write an aproximation/lightbulb"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border2">
+            <EditText
+                android:id="@+id/raspuns8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"></EditText>
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/submitanswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="207dp"
+            android:text="SUBMIT ANSWERS"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</ScrollView>

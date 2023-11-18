@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:icon="@drawable/iconita"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="33">
+        <activity
+            android:name=".ScoreCalculator2"
+            android:exported="false" />
+        <activity
+            android:name=".LogData2"
+            android:exported="false" />
+        <activity
+            android:name=".Score_Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".DataLog"
+            android:exported="false" />
+        <activity
+            android:name=".emptyleaderbord"
+            android:exported="false" />
+        <activity
+            android:name=".leaderboard2"
+            android:exported="false" />
+        <activity
+            android:name=".Result2"
+            android:exported="false" />
+        <activity
+            android:name=".Rezultat"
+            android:exported="false" />
+        <activity
+            android:name=".Leaderboard"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".Questionaire"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
